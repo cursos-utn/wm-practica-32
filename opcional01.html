@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opcional 01</title>
+</head>
+<body>
+    <pre>Realizar un programa que:
+    
+    Permita ingresar en formulario un número desde y un número hasta, números a generar
+    Envíe ambos números por método GET a otra página que:
+    Verifique que los números enviados sean efectivamente números sino corte la ejecución y muestre mensaje de error.
+    Verifique que el número desde < número hasta. Si no cumple la condición, cortar la ejecución y mostrar mensaje de error
+        Verifique que la cantidad de números distintos a generar sea menor a la cantidad de números que se pueden generar
+        según el rango (número hasta - número desde) Genere la cantidad de números solicitados, de forma aleatoria y que se
+        encuentren entre los números que se enviaron Todos los números deben ser distintos Al finalizar el proceso deberá
+        mostrar todos los números generados
+    </pre>
+
+    <form action="opcional01.php" method="get">
+        <input type="text" name="numero_desde" placeholder="numero desde"><br>
+        <input type="text" name="numero_hasta" placeholder="numero_hasta"><br>
+        <input type="text" name="numeros_a_generar" placeholder="numeros a generar"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
